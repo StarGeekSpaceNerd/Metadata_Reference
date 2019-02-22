@@ -17,8 +17,7 @@ XMP:Title |
 
 | Windows property           | Tags Read                                                    | Tags Written                                                 |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Title                      | XMP:Title<br/>EXIF:ImageDescription<br />XMP:Description<br />
-IPTC:Caption-Abstract<br />EXIF:XPTitle | EXIF:ImageDescription<br />EXIF:XPTitle<br />XMP-dc:Description<br />XMP-dc:Title<br />IPTC:Caption-Abstract[^IPTCData] |
+| Title                      | XMP:Title<br/>EXIF:ImageDescription<br />XMP:Description<br />IPTC:Caption-Abstract<br />EXIF:XPTitle | EXIF:ImageDescription<br />EXIF:XPTitle<br />XMP-dc:Description<br />XMP-dc:Title<br />IPTC:Caption-Abstract <sup>[1](#f1)<sup> |
 | Subject                    | EXIF:ImageDescription<br/>EXIF:XPSubject                     | EXIF:XPSubject                                               |
 | Rating                     | EXIF:Rating<br/>EXIF:RatingPercent<br />XMP:Rating<br />XMP:RatingPercent | EXIF:Rating<br/>EXIF:RatingPercent<br />XMP-xmp:Rating<br />XMP-microsoft:RatingPercent |
 | Tags                       | Combines all entries<br />EXIF:XPKeywords<br/>IPTC:Keywords<br />XMP:Subject | EXIF:XPKeywords<br />XMP-dc:Subject                          |
@@ -73,11 +72,7 @@ IPTC:Caption-Abstract<br />EXIF:XPTitle | EXIF:ImageDescription<br />EXIF:XPTitl
 
 ### Notes:
 
-[^IPTCData]:IPTC Data will be read, but it is update only.  If the IPTC entry does not previously exist, it will not be created.
-
-
-
- IPTC Data will be read, but it is update only.  If the IPTC entry does not previously exist, it will not be created.
+<span id="f1">1</span>: IPTC Data will be read, but it is update only.  If the IPTC entry does not previously exist, it will not be created.
 
 
 
